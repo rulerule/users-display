@@ -7,18 +7,22 @@ lista de utilizadores
 
 ### `sass`
 Dificuldade: 1/10
+
 Razão: É algo com que lido diariamente, não encontrei dificuldades
 
 ### `javascript`
 Dificuldade: 1/10
+
 Razão: É algo com que lido diariamente, não encontrei dificuldades
 
 ### `html`
 Dificuldade: 3/10
+
 Razão: Muitas vezes perco-me e começo a utilizar mais divs do que devia em situações que deveria usar tags diferentes, fiz um pequeno esforço para evitar isso
 
 ### `react`
 Dificuldade: 5/10
+
 Razão: O meu nivel de React é baixo, e já não trabalhava no mesmo ha algum tempo(3/4 meses).A parte de logica em si foi facil pois trabalho em vue e é relativamente parecido, a dificuldade encotrou-se no naming em si e no JSX.
 
 ## Decisões de implementação
