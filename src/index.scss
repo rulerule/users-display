@@ -52,9 +52,9 @@
 
 .user-wrapper {
   min-width:320px;
-  height:80px;
+  height:140px;
   box-sizing:border-box;
-  padding: 0 20px;
+  padding: 0 20px 10px 20px;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -63,7 +63,51 @@
   border-radius:8px;
   margin-bottom:10px;
   margin-right:10px;
-  cursor:pointer;
+  header {
+    width:100%;
+    height:40px;
+    display:flex;
+    flex-direction:row;
+    box-sizing:border-box;
+    align-items:center;
+    img {
+      width:24px;
+      height:24px;
+      margin-right:20px;
+    }
+    span {
+      font-size:16px;
+      font-weight:bold;
+    }
+  }
+  footer {
+    width:100%;
+    height:60px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    box-sizing:border-box;
+    padding-top:10px;
+    a {
+      border:none;
+      outline:none;
+      background-color:transparent;
+      border:1px solid grey;
+      width:40px;
+      height:36px;
+      cursor:pointer;
+      border-radius:20%;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      img {
+        width:24px;
+        height:24px;
+      }
+    }
+  }
 }
 
 .display-pair {
