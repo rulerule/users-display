@@ -23,7 +23,7 @@ Razão: Muitas vezes perco-me e começo a utilizar mais divs do que devia em sit
 ### `react`
 Dificuldade: 5/10
 
-Razão: O meu nivel de React é baixo, e já não trabalhava no mesmo ha algum tempo(3/4 meses).A parte de logica em si foi facil pois trabalho em vue e é relativamente parecido, a dificuldade encotrou-se no naming em si e no JSX.
+Razão: O meu nivel de React é baixo, e já não trabalhava no mesmo ha algum tempo(3/4 meses).A parte de logica em si foi facil pois trabalho em vue e é relativamente parecido, a dificuldade encontrou-se no naming em si e no JSX.
 
 ## Decisões de implementação
 
