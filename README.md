@@ -1,71 +1,43 @@
+## Descrição
 
+Pequeno projeto usando create-react-app, axios, e node-sass para construir uma
+lista de utilizadores
 
+## Niveis de Dificuldade durante implementação
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `sass`
+Dificuldade: 1/10
+Razão: É algo com que lido diariamente, não encontrei dificuldades
 
-## Available Scripts
+### `javascript`
+Dificuldade: 1/10
+Razão: É algo com que lido diariamente, não encontrei dificuldades
 
-In the project directory, you can run:
+### `html`
+Dificuldade: 3/10
+Razão: Muitas vezes perco-me e começo a utilizar mais divs do que devia em situações que deveria usar tags diferentes, fiz um pequeno esforço para evitar isso
 
-### `npm start`
+### `react`
+Dificuldade: 5/10
+Razão: O meu nivel de React é baixo, e já não trabalhava no mesmo ha algum tempo(3/4 meses).A parte de logica em si foi facil pois trabalho em vue e é relativamente parecido, a dificuldade encotrou-se no naming em si e no JSX.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Decisões de implementação
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### `Campo de pesquisa`
+Visto que a informação é toda fetched logo no inicio e a filtragem é feita do nosso
+lado é implementado com filtragem onchange em vez de ter um botão para o fazer
 
-### `npm test`
+### `Cartões de Utilizador`
+Apenas é mostrado o nome,email e phone por uma questão de simplicidade de desenvolvimento, mais propriedades iria implicar uma gestão diferente das props, pois não seria prático criar 20 DisplayPair á mão para mostrar a informação necessária.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Breakpoints`
+Garantem que temos 1 coluna de cards em mobile e 2 em tablet / desktop.
+:nota (no caso de um ecran maior pode surgir 3 ou + colunas de cards)
 
-### `npm run build`
+### `icons`
+Sinceramente foi os primeiros que encontrei que eram free e com link directo,
+não achei relevante fazer download de svgs e garantir a sua qualidade.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Tempo total utilizado e razão para tal
+O tempo total utilizado foi ~3 horas, decidi colocar uma deadline nesta zona
+pois é o que sinto ser justo para ambas as partes, eu evito dar em louco, e a entidade que valida evita receber um production ready project de uma lista dummy de utilizadores.
