@@ -42,6 +42,9 @@ Garantem que temos 1 coluna de cards em mobile e 2 em tablet / desktop.
 Sinceramente foi os primeiros que encontrei que eram free e com link directo,
 não achei relevante fazer download de svgs e garantir a sua qualidade.
 
+### `Fetch inicial`
+Assumi que o pedido seja sempre com sucesso, pelo que não foi adicionado caso de erro, empty / error state etc
+
 ## Tempo total utilizado e razão para tal
 O tempo total utilizado foi ~3 horas, decidi colocar uma deadline nesta zona
 pois é o que sinto ser justo para ambas as partes, eu evito dar em louco, e a entidade que valida evita receber um production ready project de uma lista dummy de utilizadores.
